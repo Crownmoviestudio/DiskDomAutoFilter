@@ -1,6 +1,6 @@
 {
-    "name": "LazyUrlHunterrBOT",
-    "description": "LazyUrlHunterrBOT",
+    "name": "DiskDomAutoFilter",
+    "description": "DiskDomAutoFilter",
     "keywords": [
         "telegram",
         "channel",
@@ -9,8 +9,8 @@
         "bot"
     ],
     "repository": "https://github.com/LazyDeveloperr/LazyUrlHunterrBOT",
-    "website": "https://telegram.me/LazyDeveloper",
-    "success_url": "https://telegram.me/LazyDeveloper",
+    "website": "https://telegram.me/DiskDom",
+    "success_url": "https://telegram.me/DiskDom",
     "env": {
         "API_ID": {
             "description": "If you are new user then Get this value from my.telegram.org else get it from @TgApiextractorBot"
@@ -40,11 +40,11 @@
             "description": "MongoDB Database URI for Saving UserID for Broadcast."
         },
         "UPDATES_CHANNEL": {
-            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -1001669443507",
-            "required": false
+            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -1001911592220",
+            "required": True
         },
         "CHANNEL_ID": {
-            "description": "Channel ID for Searching Messages.( same as Database Channel of LazyPrincessBOT )"
+            "description": "Channel ID for Searching Messages.( same as Database Channel of DiskDom )"
         }
     },
     "buildpacks": [
