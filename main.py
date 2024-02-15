@@ -28,8 +28,8 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/9a67d1fb0bc179b764cef.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("🔺 Donate us 🔺", url="")],
-                                    [InlineKeyboardButton("⚡️ Developer ⚡️", url="https://telegram.me/DiskDom")],
+                                    [InlineKeyboardButton("💲 Donate us 💲", url="")],
+                                    [InlineKeyboardButton("💻 Developer 💻", url="https://telegram.me/DiskDom")],
                                     [InlineKeyboardButton("🙏 Help", callback_data="Help_msg"),
                                     InlineKeyboardButton("🆎 About", callback_data="About_msg")]]))
 
