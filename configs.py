@@ -13,7 +13,7 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002012489202")
     BOT_USERNAME = os.environ.get("DiskDomAutoFilterBot")
     BOT_OWNER = int(os.environ.get("1234011978"))
-    DATABASE_URL = os.environ.get("mongodb+srv://DiskDomBot:DiskDomBot@cluster0.g14qwsm.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001911592220")
     ABOUT_BOT_TEXT = """<b> <a href='https://telegram.me/DiskDom'>DiskDom</a> is an open source project.
 
