@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="DiskDom Auto Filter  logo">
+  <img src="https://telegra.ph/file/9a67d1fb0bc179b764cef.jpg" alt="DiskDom Auto Filter  logo">
 </p>
 <h1 align="center">
   <b> DiskDom Auto Filter </b>
