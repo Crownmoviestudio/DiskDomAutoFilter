@@ -1,27 +1,27 @@
-# in & as LazyDeveloper
+# in & as DiskDom
 # Please Don't Remove Credit
 
 import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
+    API_ID = int(os.environ.get("API_ID", "1833228" )
+    API_HASH = os.environ.get("API_HASH", "49ee45ea7c16603385323c0efa03e9ad")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6953751223:AAF0KOM0OZWt4d2-1NrujMqI6h3Ei9S0-D4")
+    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "DiskDomAutoFilterBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002012489202")
+    BOT_USERNAME = os.environ.get("DiskDomAutoFilterBot")
+    BOT_OWNER = int(os.environ.get("1234011978"))
+    DATABASE_URL = os.environ.get("mongodb+srv://DiskDomBot:DiskDomBot@cluster0.g14qwsm.mongodb.net/?retryWrites=true&w=majority")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001911592220")
+    ABOUT_BOT_TEXT = """<b> <a href='https://telegram.me/DiskDom'>DiskDom</a> is an open source project.
 
     Devs: 
-        <a href='https://t.me/mRiderDM'>❤️ LazyDeveloper ❤️</a>
+        <a href='https://telegram.me/DiskDom'>❤️ DiskDom ❤️</a>
     
     
-🤖 My Name: <a href='https://t.me/Official_Movies_Group'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://tinyurl.com/DiskDomOfficial'>DiskDom Auto Filter</a>
 
 📝 Language: <a href='https://www.python.org'>Python V3</a>
 
@@ -31,10 +31,10 @@ class Config(object):
 
 📡 Server 2: <a href='https://heroku.com'>koyeb</a> <i>comming soon</i>
 
-👨‍💻 Developer Channel: <a href='https://t.me/LazyDeveloper'>LazyDeveloper</a></b>
+👨‍💻 Developer Channel: <a href='https://telegram.me/DiskDom'>DiskDom Official</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>💋 Developer : <a href='https://t.me/LazyDeveloper'>LazyDeveloper</a>
+    ABOUT_HELP_TEXT = """<b>💋 Developer : <a href='https://telegram.me/DiskDom'>DiskDom</a>
 
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
@@ -51,14 +51,14 @@ Don't be sad ! Your all urls are in safe Hand.
 
 »»» <b>Happy Hunting</b> «««
 
-🔺Thank You <a href='https://t.me/LazyDeveloper'>LazyDeveloper</a>🔺 </b>
+🔺Thank You <a href='https://telegram.me/DiskDom'>DiskDom</a>🔺 </b>
 """
 
 
     START_MSG = """
 <b>Hello Baby ! {}😅,
 
-I'm the one and only fastest URL & post finder BOT. Add me to any Group and Give me Hunting rights !!
+I'm the one and only fastest URL & Post Finder BOT. Add me to any Group and Give me Hunting rights !!
 
 Don't be sad ! Your all urls are in safe Hand.</b>
 
