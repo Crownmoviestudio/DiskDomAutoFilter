@@ -30,8 +30,8 @@ async def start_handler(_, event: Message):
                                 reply_markup=InlineKeyboardMarkup([
                                     [InlineKeyboardButton("🔺 Donate us 🔺", url="")],
                                     [InlineKeyboardButton("⚡️ Developer ⚡️", url="https://telegram.me/DiskDom")],
-                                    [InlineKeyboardButton("🤒Help", callback_data="Help_msg"),
-                                    InlineKeyboardButton("🦋About", callback_data="About_msg")]]))
+                                    [InlineKeyboardButton("🙏 Help", callback_data="Help_msg"),
+                                    InlineKeyboardButton("🆎 About", callback_data="About_msg")]]))
 
 @Bot.on_message(filters.private & filters.command("help"))
 async def help_handler(_, event: Message):
