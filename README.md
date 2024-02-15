@@ -65,21 +65,21 @@ python3 main.py
 </p>
 
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyDeveloper)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/DiskDom)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/DiskDom)
 
 ## Credits 
-* [![LazyUrlHunterr-Devs](https://img.shields.io/static/v1?label=LazyUrlHunterBOT&message=devs&color=critical)](https://telegram.dog/LazyDeveloper)
+* [![DiskDom-Devs](https://img.shields.io/static/v1?label=DiskDom&message=devs&color=critical)](https://telegram.dog/DiskDom)
 
 
 ## Thanks to 
- - ❤️ Thank You [LazyDeveloper](https://telegram.me/LazyDeveloper) For helping me in my Journey..❤️
- - ⚡️[Why don't you buy a cup of coffee for LazyDeveloper](https://telegram.me/LazyDeveloper)⚡️
+ - ❤️ Thank You [DiskDom](https://telegram.me/DiskDom) For helping me in my Journey..❤️
+ - ⚡️[Why don't you buy a cup of coffee for DiskDom](https://telegram.me/DiskDom)⚡️
 
 ### Note
 
-[Join Developer Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper
-
+[Join Developer Channel](https://telegram.dog/DiskDom):
+DiskDom 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyUrlHunterrBOT/blob/main/LICENSE)
