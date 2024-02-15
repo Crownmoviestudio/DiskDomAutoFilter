@@ -64,8 +64,6 @@ Don't be sad ! Your all urls are in safe Hand.</b>
 
    »»»» <b>Happy Hunting</b> ««««
 
-💸<b>Donate us to Keep service Alive.💸</b>
-»» A small amount of ₹5 - ₹20 - ₹50 - ₹100 will be great help !
 🔺 Thank You 🔺 
 """
 
