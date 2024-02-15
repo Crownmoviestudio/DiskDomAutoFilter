@@ -29,7 +29,7 @@ async def start_handler(_, event: Message):
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
                                     [InlineKeyboardButton("🔺 Donate us 🔺", url="")],
-                                    [InlineKeyboardButton("⚡️ LazyDeveloper ⚡️", url="https://telegram.me/DiskDom")],
+                                    [InlineKeyboardButton("⚡️ Developer ⚡️", url="https://telegram.me/DiskDom")],
                                     [InlineKeyboardButton("🤒Help", callback_data="Help_msg"),
                                     InlineKeyboardButton("🦋About", callback_data="About_msg")]]))
 
