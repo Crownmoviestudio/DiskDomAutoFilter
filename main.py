@@ -25,11 +25,11 @@ User = Client(
 
 @Bot.on_message(filters.private & filters.command("start"))
 async def start_handler(_, event: Message):
-	await event.reply_photo("https://telegra.ph/file/2b160d9765fe080c704d2.png",
+	await event.reply_photo("https://telegra.ph/file/9a67d1fb0bc179b764cef.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("🔺 Donate us 🔺", url="https://p.paytm.me/xCTH/vo37hii9")],
-                                    [InlineKeyboardButton("⚡️ LazyDeveloper ⚡️", url="https://t.me/LazyDeveloper")],
+                                    [InlineKeyboardButton("🔺 Donate us 🔺", url="")],
+                                    [InlineKeyboardButton("⚡️ LazyDeveloper ⚡️", url="https://telegram.me/DiskDom")],
                                     [InlineKeyboardButton("🤒Help", callback_data="Help_msg"),
                                     InlineKeyboardButton("🦋About", callback_data="About_msg")]]))
 
@@ -38,8 +38,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Updates", url="https://t.me/LazyDeveloper"),
-             InlineKeyboardButton("Support Group", url="https://t.me/LazyPrincessSupport"), 
+            [InlineKeyboardButton("Updates", url="https://telegram.me/DiskDom"),
+             InlineKeyboardButton("Support Group", url="https://telegram.me/DesiFlixApp"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
