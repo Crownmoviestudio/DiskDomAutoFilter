@@ -8,7 +8,7 @@
         "search",
         "bot"
     ],
-    "repository": "https://github.com/LazyDeveloperr/LazyUrlHunterrBOT",
+    "repository": "https://github.com/Crownmoviestudio/DiskDomAutoFilter",
     "website": "https://telegram.me/DiskDom",
     "success_url": "https://telegram.me/DiskDom",
     "env": {
@@ -41,7 +41,7 @@
         },
         "UPDATES_CHANNEL": {
             "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -1001911592220",
-            "required": True
+            "required": true
         },
         "CHANNEL_ID": {
             "description": "Channel ID for Searching Messages.( same as Database Channel of DiskDom )"
