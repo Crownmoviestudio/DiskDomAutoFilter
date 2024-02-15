@@ -1,4 +1,4 @@
-# in & as LazyDeveloper
+# in & as DiskDom 
 # Please Don't Remove Credit
 
 from configs import Config
@@ -77,10 +77,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Updates Channel", url="https://t.me/LazyDeveloper")
+						InlineKeyboardButton("Updates Channel", url="https://telegram.me/DiskDom")
 					],
 					[
-						InlineKeyboardButton("Connect Admin", url="https://t.me/LazyDeveloper"),
+						InlineKeyboardButton("Connect Admin", url="https://telegram.me/DesiFlixApp"),
 						InlineKeyboardButton("🏠Home", callback_data="gohome")
 					]
 				]
@@ -94,10 +94,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[   InlineKeyboardButton("Help", callback_data="Help_msg"),
-						InlineKeyboardButton("Updates Channel", url="https://t.me/LazyDeveloper")
+						InlineKeyboardButton("Updates Channel", url="https://telegram.me/DiskDom")
 					], 
                     [
-						InlineKeyboardButton("Connect Admin", url="https://t.me/LazyDeveloper"),
+						InlineKeyboardButton("Connect Admin", url="https://telegram.me/DesiFlixApp"),
 						InlineKeyboardButton("🏠Home", callback_data="gohome")
 					]
 				]
@@ -115,7 +115,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support Channel", url="https://t.me/LazyPrincessSupport"),
+						InlineKeyboardButton("Support Channel", url="https://telegram.me/DiskDom"),
 					]
 				]
 			),
