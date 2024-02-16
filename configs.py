@@ -5,7 +5,7 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "1833228" )
+    API_ID = int(os.environ.get("API_ID", "1833228")
     API_HASH = os.environ.get("API_HASH", "49ee45ea7c16603385323c0efa03e9ad")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6953751223:AAF0KOM0OZWt4d2-1NrujMqI6h3Ei9S0-D4")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "DiskDomAutoFilterBot")
