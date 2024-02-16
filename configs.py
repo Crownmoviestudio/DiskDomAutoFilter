@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "1833228" )
-    API_HASH = os.environ.get("API_HASH", "49ee45ea7c16603385323c0efa03e9ad")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6953751223:AAF0KOM0OZWt4d2-1NrujMqI6h3Ei9S0-D4")
+    API_ID = int(os.environ.get("API_ID", "" )
+    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "DiskDomAutoFilterBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002012489202")
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")
     BOT_USERNAME = os.environ.get("DiskDomAutoFilterBot")
-    BOT_OWNER = int(os.environ.get("1234011978"))
+    BOT_OWNER = int(os.environ.get(""))
     DATABASE_URL = os.environ.get("")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001911592220")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     ABOUT_BOT_TEXT = """<b> <a href='https://telegram.me/DiskDom'>DiskDom</a> is an open source project.
 
     Devs: 
